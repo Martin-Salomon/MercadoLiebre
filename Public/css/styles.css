@@ -1,0 +1,345 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a; 
+}
+
+ul li{
+    list-style-type:none;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+}
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+h5{
+    text-align: center;
+}
+
+
+.logo-header{
+    font-size: 51px;
+    width: 50%;
+    max-width: 150px;
+}
+
+.header{
+    background-color: var(--amarillo);
+}
+
+.banner{
+    width: 100%;
+}
+
+.fa-bars{
+    color: #fff;
+    background-color: var(--celeste);
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.burger-menu{
+    text-align: center;
+}
+
+
+
+.titulares{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--gris-oscuro);
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuentos, .descripciones{
+    font-size: 1rem;
+    margin: 2px 0px 0px 10px;
+}
+
+.texto{
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 20px 20px 20px ;
+}
+
+footer div{
+    text-align: center;
+}
+
+footer div .fas{
+    color: var(--celeste);
+    font-size: 2em;
+    margin: 10px 0px 10px 0px;    
+}
+
+div .texto, h3{
+    color: var(--gris-oscuro);
+}
+li img{
+    width: 100%;
+}
+
+.credit-card{
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+
+.inline{
+    display: inline-block;
+}
+
+main{
+    background-color: var(--gris-claro);
+    padding: 0px 0px 10px 0px;
+}
+
+.main{
+    width: 90vw;
+    margin: auto;
+}
+
+.product{
+    margin: 10px 5px 10px 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.product-data{
+    border-top: 1px solid var(--gris-claro);
+    padding: 15px 0;
+    background-color: #fff;
+    margin-top: -4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.fa-truck{
+    color: var(--verde);
+    border-radius: 50%;
+    border: 1px solid var(--verde);
+    font-size: 12px;
+    padding: 8px;
+    background-color: #FFF;
+    position: relative;
+    top: -31px;
+    left: 80%;
+}
+
+.descuentos{
+    color: var(--verde);
+}
+.descripciones{
+    color: var(--gris-oscuro);
+    display: none;
+    margin-left: 30px;
+}
+
+.main-navbar{
+    display: none;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+}
+.main-header-top-bar{
+    padding-top: 10px;
+    margin: 0 5px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-izq-der{
+    display: none;
+}
+.main ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.busca{
+    width: 50%;
+    max-width: 174px;
+    display: flex;
+    margin: 10px 0px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-bar{
+    border-radius: 5px 0 0 5px;
+    border: 0.5px solid var(--gris-oscuro);
+    height: 25px;
+
+}
+
+.search-btn {
+    border-radius: 0 5px 5px 0;
+    border: 0.5px solid var(--gris-oscuro);
+    height: 25px;
+}
+
+/*******    Formulario     ********/
+
+.create-form{
+    padding: 20px 15px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+}
+
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+.boton-formulario{
+    background-color: var(--verde);
+    border: 1px solid #a5a1a1;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.boton-formulario:hover{
+    background-color: var(--azul);
+    cursor: pointer;
+}
+input {
+    border-width: 0px;
+}
+/*******    BREACKPOINT 450px     ********/
+
+@media (max-width: 650px) {
+    .busca{
+        margin: 5px 5px;
+    }
+    .credit-card{
+        margin-top:15px;
+    }
+    .search-bar{
+        max-width: 117px;
+    }
+    
+
+}
+
+/*******    BREACKPOINT 768px     ********/
+
+@media (min-width: 768px) {
+    .product{
+        box-shadow: 0px 0px 10px rgb(100 100 100);
+    }
+    .descripciones{
+        display: block;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0 5px;
+
+    }
+    .search-bar{
+        width: 250px;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .product{
+        width: 45%;
+    }
+    .busca, .credit-card, .logo-header{
+    width: 25%;
+    }
+}
+
+/*******    BREACKPOINT 1200px     ********/
+
+@media (min-width: 1200px) {
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200px;
+        margin:auto;
+    }
+    .main-navbar li{
+        margin: 0 10px;
+        
+    }
+    .main-navbar a{
+    font-size: 19px;
+        
+    }
+    .credit-card{
+        font-size: 16px;
+        margin-top: 10px;
+        text-align: end;
+    }
+    .logo-header{
+        width: 10rem;
+    }
+    .search-bar{
+        width: 200px;
+    }
+    .product{
+        width: 24%;
+    }
+    .busca, .credit-card, .logo-header{
+    width: 30%;
+    }
+
+}
+
+
+
