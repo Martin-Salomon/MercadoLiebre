@@ -33,7 +33,7 @@ h5{
 
 .logo-header{
     font-size: 51px;
-    width: 50%;
+    width: 80%;
     max-width: 150px;
 }
 
@@ -212,6 +212,7 @@ main{
     border-radius: 0 5px 5px 0;
     border: 0.5px solid #6660;
     height: 25px;
+    background-color: white;
 }
 
 /*******    Formulario     ********/
@@ -301,7 +302,7 @@ input {
         width: 45%;
     }
     .busca, .credit-card, .logo-header{
-    width: 25%;
+    /* width: 100%; */
     }
 }
 
