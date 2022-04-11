@@ -39,6 +39,11 @@ h5{
 
 .header{
     background-color: var(--amarillo);
+    position: fixed;
+    z-index: 1;
+    top:0;
+    height: 125px;
+    width: 100%;
 }
 
 .banner{
@@ -55,7 +60,7 @@ h5{
 
 .burger-menu{
     text-align: center;
-}
+position: relative;top: -19px;}
 
 
 
@@ -81,7 +86,13 @@ h5{
     margin: 5px 20px 20px 20px ;
 }
 
+.main-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;}
+
 footer div{
+    max-width: 350px;
     text-align: center;
 }
 
@@ -90,6 +101,11 @@ footer div .fas{
     font-size: 2em;
     margin: 10px 0px 10px 0px;    
 }
+
+footer div .fas:hover{
+    color: var(--verde);  
+}
+
 
 div .texto, h3{
     color: var(--gris-oscuro);
@@ -111,6 +127,7 @@ li img{
 main{
     background-color: var(--gris-claro);
     padding: 0px 0px 10px 0px;
+    margin-top: 125px;
 }
 
 .main{
@@ -123,7 +140,15 @@ main{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
 }
+
+.product:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+    
+}
+
 
 .product-data{
     border-top: 1px solid var(--gris-claro);
@@ -142,12 +167,16 @@ main{
     border-radius: 50%;
     border: 1px solid var(--verde);
     font-size: 12px;
-    padding: 8px;
+    padding: 10px;
     background-color: #FFF;
     position: relative;
     top: -31px;
     left: 80%;
 }
+.fa-truck:hover{
+    transform: rotate(-90deg);
+}
+
 
 .descuentos{
     color: var(--verde);
@@ -156,6 +185,9 @@ main{
     color: var(--gris-oscuro);
     display: none;
     margin-left: 30px;
+}
+.descripciones:hover{
+    display: block;
 }
 
 .main-navbar{
@@ -246,7 +278,7 @@ main{
 
 }
 .boton-formulario:hover{
-    background-color: var(--azul);
+    background-color: #0022AA;
     cursor: pointer;
 }
 input {
@@ -264,6 +296,9 @@ input {
     .search-bar{
         max-width: 117px;
     }
+    .descripciones:hover{
+        display: block;
+    }
     
 
 }
@@ -271,9 +306,7 @@ input {
 /*******    BREACKPOINT 768px     ********/
 
 @media (min-width: 768px) {
-    .product{
-        box-shadow: 0px 0px 10px rgb(100 100 100);
-    }
+
     .descripciones{
         display: block;
     }
@@ -336,7 +369,7 @@ input {
         width: 24%;
     }
     .busca, .credit-card, .logo-header{
-    width: 30%;
+    width: ;
     }
 
 }
