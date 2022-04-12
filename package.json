@@ -1,7 +1,6 @@
 {
-  "name": "app.js",
+  "name": "app",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -13,5 +12,14 @@
   "dependencies": {
     "express": "^4.17.3",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martin-Salomon/MercadoLiebre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Martin-Salomon/MercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/Martin-Salomon/MercadoLiebre#readme",
+  "description": ""
 }
