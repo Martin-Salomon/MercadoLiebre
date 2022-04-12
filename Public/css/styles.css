@@ -146,6 +146,7 @@ main{
 
 .product:hover{
     transform: scale(1.01);
+    
     box-shadow:0 7px 16px 0 rgb(0 0 0 / 20%);
     transition: 0.3s;
     
