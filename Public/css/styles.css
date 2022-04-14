@@ -131,7 +131,7 @@ main{
     margin-top: 125px;
 }
 
-.main{
+.vitrina{
     width: 90vw;
     margin: auto;
 }
@@ -220,7 +220,7 @@ main{
 .nav-izq-der{
     display: none;
 }
-.main ul{
+.vitrina ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
