@@ -70,7 +70,7 @@ position: relative;top: -19px;}
     font-weight: bold;
     text-align: center;
     color: var(--gris-oscuro);
-margin-top: 32px;}
+/* margin-top: 32px; */}
 
 .precio{
     font-size: 18px;
@@ -294,12 +294,8 @@ input {
 }
 
 .descripciones{
-        display: none;
-        width: 200px;
-    }
-.product:hover .descripciones{
         display: block;
-        transition: 500ms;
+        width: 200px;
     }
 
 /*******    BREACKPOINT 450px     ********/
@@ -319,6 +315,7 @@ input {
 }
 
 /*******    BREACKPOINT 768px     ********/
+
 
 @media (min-width: 768px) {
 
@@ -346,13 +343,12 @@ input {
     .product{
         width: 45%;
     }
-    
 
 }
 
 /*******    BREACKPOINT 1200px     ********/
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     .main-header-top-bar, .main-navbar{
         max-width: 1200px;
         margin:auto;
@@ -378,6 +374,17 @@ input {
     }
     .product{
         width: 24%;
+    }
+    .main {
+    height: 470px;
+    }
+    .descripciones{
+        display: none;
+        width: 200px;
+    }
+    .product:hover .descripciones{
+        display: block;
+        transition: 500ms;
     }
 }
 
