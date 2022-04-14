@@ -234,7 +234,7 @@ main{
 
 .busca{
     width: 50%;
-    max-width: 280px;
+    max-width: 247px;
     display: flex;
     margin: 10px 0px;
     flex-wrap: nowrap;
@@ -375,7 +375,7 @@ input {
         width: 10rem;
     }
     .search-bar{
-        width: 200px;
+        width: 240px;
     }
     .product{
         width: 24%;
