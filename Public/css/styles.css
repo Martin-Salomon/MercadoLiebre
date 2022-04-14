@@ -294,12 +294,11 @@ input {
 }
 
 .descripciones{
-        display: block;
-        opacity: 0;
+        display: none;
         width: 200px;
     }
-.descripciones:hover{
-        opacity: 1;
+.product:hover .descripciones{
+        display: block;
         transition: 500ms;
     }
 
@@ -384,4 +383,3 @@ input {
 
 
 
-/*Test01*/
