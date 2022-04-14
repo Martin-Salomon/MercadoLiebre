@@ -385,7 +385,17 @@ input {
     .product:hover .descripciones{
         display: block;
         transition: 500ms;
-    }
+        animation: zoom-in 750ms 1 alternate;
+    /* animation-direction: alternate; */}
+    @keyframes zoom-in {
+	0% {
+		opacity: 0;
+		transform: scale(0.5);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
 }
 
 
