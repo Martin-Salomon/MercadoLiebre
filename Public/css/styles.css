@@ -38,6 +38,12 @@ h5{
     max-width: 150px;
 }
 
+.logo-header:hover{
+    transform:scale(1.1);
+    transition: 0.9s;
+    
+}
+
 .header{
     background-color: var(--amarillo);
     position: fixed;
@@ -61,7 +67,8 @@ h5{
 
 .burger-menu{
     text-align: center;
-position: relative;top: -19px;}
+    position: relative;
+    top: -19px;}
 
 
 
