@@ -70,7 +70,7 @@ position: relative;top: -19px;}
     font-weight: bold;
     text-align: center;
     color: var(--gris-oscuro);
-/* margin-top: 32px; */}
+margin-top: 20px;}
 
 .precio{
     font-size: 18px;
@@ -348,7 +348,7 @@ input {
 
 /*******    BREACKPOINT 1200px     ********/
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     .main-header-top-bar, .main-navbar{
         max-width: 1200px;
         margin:auto;
@@ -376,7 +376,7 @@ input {
         width: 24%;
     }
     .main {
-    height: 435px;
+    height: 100%;
     }
     .descripciones{
         display: none;
