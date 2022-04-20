@@ -120,6 +120,8 @@ div .texto, h3{
 }
 li img{
     width: 100%;
+    padding: 35px;
+    background-color: white;
 }
 
 .credit-card{
