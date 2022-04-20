@@ -14,7 +14,7 @@ app.listen(process.env.PORT || 3050, ()=>{
     console.log("servidor corriendo en el puerto http://localhost:3050");
 });
 
-app.get('/', (req,res)=>{
+ app.get('/', (req,res)=>{
     res.sendFile(path.resolve(__dirname, './views/home.html'));
 });
 
